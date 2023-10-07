@@ -146,23 +146,22 @@ a {
 			<div id="changeinfospace">
 				<p>내 정보 수정</p>
 				<div class="nicknametext">
-					<label for="nickname" class="textlabel">닉네임</label> <input
-						type="text" id="nickname" class="textinput"> <input
-						type="button" id="nicknameduplication" value="중복확인">
+					<label for="nickname" class="textlabel">닉네임</label>
+					 <input	type="text" name="nickname" class="textinput" required="required">
+					 <input type="button" id="nicknameduplication" value="중복확인">
 				</div>
 				<div class="passwordchange" style="margin-bottom: 10px;">
-					<label for="password" class="textlabel">비밀번호 변경</label> <input
-						type="text" id="password" class="textinput">
+					<label for="password" class="textlabel">비밀번호 변경</label>
+					<input type="password"  name="password1" class="textinput" required="required">
 				</div>
 				<div class="passwordchange">
-					<label for="password" class="textlabel">비밀번호 확인</label> <input
-						type="text" id="password" class="textinput">
+					<label for="password" class="textlabel">비밀번호 확인</label>
+					<input type="password" name="password2" class="textinput" required="required">
 				</div>
 				<div class="changeinfobtn">
-					<input type="submit" value="수정" id="changeinfobtn"> <input
-						type="button" formaction="mypage" formmethod="get" value="취소"
-						id="changeinfocancelbtn"
-						onclick="location.href='../jeha/mypage.html'">
+					<input type="submit" value="수정" id="changeinfobtn">
+					<input type="button" formaction="mypage" formmethod="get" value="취소"
+						id="changeinfocancelbtn" onclick="location.href='mypage'">
 				</div>
 			</div>
 		</form>

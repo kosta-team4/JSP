@@ -123,21 +123,21 @@ a {
 				style="width: 20px; margin-bottom: -2px;"> <a
 				href="..\index.html">뒤로가기</a>
 		</div>
-		<form action="#">
+		<form action="idforget" method="post">
 			<div id="loginspace">
 				<p>아이디 찾기</p>
 				<div id="gmailtext" class="textcommon">
-					<label for="email" class="textlabel">이메일</label> <input type="text"
-						class="textinput" name="email" placeholder="ex) kosta@kosta.com">
+					<label for="email" class="textlabel">이메일</label> <input type="email"
+						class="textinput" name="email" placeholder="ex) kosta@kosta.com" required="required">
 				</div>
 			</div>
 			<div class="idforgetbtn">
-				<input type="submit" value="인증번호 받기" id="idforgetbtn">
+				<input type="submit" value="ID 찾기" id="idforgetbtn">
 			</div>
 		</form>
 		<div id="bottomspace">
-			<a href="join.html" id="joinbtn">회원가입</a> <a
-				href="passwordforget.html" id="passwordforget">PW 찾기</a>
+			<a href="join" id="joinbtn">회원가입</a> <a
+				href="passwordforget" id="passwordforget">PW 찾기</a>
 		</div>
 	</div>
 </body>

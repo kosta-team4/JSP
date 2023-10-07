@@ -138,15 +138,15 @@ hr {
 		<div id="myinfo">
 			<p>마이페이지</p>
 			<div class="myinfodetail">
-				<div id="nickname">{user.nickname}</div>
+				<div id="nickname">${member.nickname}</div>
 				<div class="idemail">
-					ID : <input type="text" class="textinput" value="{user.id}">
+					ID : <input type="text" class="textinput" value="${member.id}">
 					<br>
 					<br> Email : <input type="text" class="textinput" disabled
-						value="{user.email}">
+						value="${member.email}">
 				</div>
 				<div class="changeinfo">
-					<a href="../jeha/changeinfo.html">내 정보 수정</a>
+					<a href="changeinfo">내 정보 수정</a>
 				</div>
 			</div>
 		</div>

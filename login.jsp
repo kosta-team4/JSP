@@ -140,17 +140,17 @@ a {
 				style="width: 20px; margin-bottom: -2px;"> <a
 				href="..\index.html">뒤로가기</a>
 		</div>
-		<form action="#">
+		<form action="login" method="post">
 			<div id="loginspace">
 				<p>로그인</p>
 				<div id="idtext" class="textcommon">
 					<label for="id" class="textlabel" style="width: 100px;">아이디</label>
 					<input type="text" class="textinput" name="id"
-						placeholder="ex) kosta">
+						placeholder="ex) kosta" required="required">
 				</div>
 				<div id="passwordtext" class="textcommon">
 					<label for="id" class="textlabel" style="width: 100px;">비밀번호</label>
-					<input type="text" class="textinput" name="password">
+					<input type="password" class="textinput" name="password" required="required">
 				</div>
 				<div class="loginbtn">
 					<input type="submit" value="로그인" id="loginbtn">
@@ -158,9 +158,9 @@ a {
 			</div>
 		</form>
 		<div class="bottomspace">
-			<a href="join.html" id="joinbtn">회원가입</a> <a href="idforget.html"
-				id="idforget">ID 찾기</a> <a href="passwordforget.html"
-				id="passwordforget">PW 찾기</a>
+			<a href="join" id="joinbtn">회원가입</a>
+			<a href="idforget" id="idforget">ID 찾기</a>
+			<a href="passwordforget" id="passwordforget">PW 찾기</a>
 		</div>
 	</div>
 	<script src="https://kit.fontawesome.com/ad2be14d60.js"

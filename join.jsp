@@ -130,27 +130,27 @@ a {
 				<p>회원가입</p>
 				<div id="idtext">
 					<label for="id" class="textlabel">아이디</label> <input type="text"
-						name="id" class="textinput"> <input type="button"
-						name="idduplicationbtn" class="idduplicationbtn" value="중복확인">
+						name="id" class="textinput" required="required"> <input type="button"
+						id="idduplicationbtn" class="idduplicationbtn" value="중복확인">
 				</div>
 				<div id="passwordtext">
 					<label for="password" class="textlabel">비밀번호</label> <input
-						type="text" name="password" class="textinput">
+						id="password1" type="password" name="password" class="textinput" required="required">
 				</div>
 				<div id="passwordtext">
 					<label for="password" class="textlabel">비밀번호 확인</label> <input
-						type="text" name="password" class="textinput">
+						id="password2" type="password" name="password" class="textinput" required="required">
 				</div>
 				<div id="nicknametext">
 					<label for="nickname" class="textlabel">닉네임</label> <input
-						type="text" name="nickname" class="textinput"> <input
-						type="button" name="nicknameduplicationbtn"
-						class="nicknameduplicationbtn" value="중복확인">
+						type="text" name="nickname" class="textinput"  required="required"> <input
+						type="button" id="nicknameduplicationbtn"
+						class="nicknameduplicationbtn" value="중복확인" >
 				</div>
 				<div id="emailtext">
-					<label for="email" class="textlabel">이메일</label> <input type="text"
-						name="email" class="textinput"> <input type="button"
-						name="emailduplicationbtn" class="emailduplicationbtn"
+					<label for="email" class="textlabel">이메일</label> <input type="email"
+						name="email" class="textinput"  required="required"> <input type="button"
+						id="emailduplicationbtn" class="emailduplicationbtn"
 						value="중복확인">
 				</div>
 				<div class="joinbtn">

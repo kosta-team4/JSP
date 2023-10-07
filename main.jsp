@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,35 +10,8 @@
     <title>main</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-logo">
-            <a href="#"><img src="logo.png" alt="" class="main-logo"></a>
-        </div>
-        <div class="nav-container">
-        <nav class="header-nav">
-            <ul class="nav-ul">
-                <li class="nav-li"><a href="heejun/testschedule.html">시험일정</a></li>
-                <li class="nav-li"><a href="heejun/calender.html">캘린더</a></li>
-                <li class="nav-li dropdown">
-                        커뮤니티
-                    <div class="dropdown-content">
-                    <a href="gunwoo/freeboard.html">자유게시판</a>
-                    <a href="gunwoo/testboard.html">시험문제공유</a>
-                    <a href="gunwoo/onelineboard.html">시험 한줄평</a>
-                    </div>
-                </li>
-              
-            </ul>
-        </nav>
-        <nav class="header-nav">
-            <ul class="nav-ul">
-                <li class="nav-li"><a href="jeha/login.html">로그인</a></li>
-                <li class="nav-li">로그아웃</a></li>
-                <li class="nav-li bg-box"><a href="jeha/mypage.html">마이페이지</a></li>
-            </ul>
-        </nav>
-        </div>
-    </header>
+    <%@ include file="header.jsp" %>
+    
     <main class="main">
 
         <section class="search-section">
